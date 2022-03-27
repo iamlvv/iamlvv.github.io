@@ -16,7 +16,7 @@ header {
     width: 100%;
 }
 .logo {
-    border-top: 4px solid #648880;
+    border-top: 6px solid #648880;
     float: left;
     font-size: 48px;
     font-weight: 100;
@@ -26,7 +26,7 @@ header {
     text-transform: uppercase;
     height: 100px;
     color: #fff;
-    margin-top: 0;
+    margin-top: -20px;
     
 }
 h1 a {
