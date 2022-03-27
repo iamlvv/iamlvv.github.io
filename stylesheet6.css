@@ -1,0 +1,259 @@
+/*file main.html */
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #293f50;
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main {
+    background: white;
+}
+header {
+    margin-top: 0;
+    width: 100%;
+}
+.logo {
+    border-top: 4px solid #648880;
+    float: left;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    /* padding: 40px 0 22px 0; */
+    text-transform: uppercase;
+    height: 100px;
+    color: #fff;
+    margin-top: 0;
+    
+}
+h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+h1 a:hover {
+    color: #648880;
+}
+h1, h2, h3, h4 {
+    margin-bottom: 22px;
+    color: #648880;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+h1 {
+    display: inline-block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 100px;
+    font-size: 36px;
+}
+.title p {
+    font-size: 24px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+.tagline {
+    text-align: right;
+}
+
+.header-main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.header-nav {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: right;
+}
+ul {
+    list-style: none;
+    color: #fff;
+}
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+.title {
+    display: block;
+    color: #fff;
+    line-height: 44px;
+    padding: 22px 80px 66px 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+h2 {
+    line-height: 44px;
+}
+button {
+    padding: 20px 30px;
+    font-size: 24px;
+    background-color: #293f50;
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+button:hover {
+    opacity: 0.65;
+}
+.main {
+    margin-top: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 0.5fr));
+    padding: 60px 44px 66px 88px;
+}
+span {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.option p {
+    width: 280px;
+}
+img {
+    width: 280px;
+    height: 198px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+footer h3 {
+    float: left;
+    margin-left: 20px;
+}
+.footer-nav {
+    float: right;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-nav a {
+    color: #fff;
+}
+/*file register.html */
+.register-area {
+    background: #cbe2c1;
+    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    height: 200px;
+    padding-bottom: 30px;
+}
+.register-area h2 {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 400;
+}
+.register-area p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 200%;
+}
+main {
+    padding-top: 0;
+}
+.content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
+    padding: 50px 200px 50px 200px;
+}
+.purchase h3 {
+    margin-top: 0;
+}
+.purchase ul {
+    list-style: circle;
+    color: #648880;
+}
+.form-registration button {
+    margin-top: 20px;
+    border: 0;
+    background: #648880;
+    padding: 11px 30px;
+    font-size: 14px;
+}
+/* file speaker.html */
+.ava ul {
+    color: #648880;
+    text-align: center;
+    padding-left: 0;
+}
+.ava img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.speaker-content h3 {
+    margin-top: 0;
+}
+
+/*file venue.html */
+.venue-content a {
+    text-decoration: none;
+    color: #648880;
+    
+}
+.content-venue {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 50px 200px 50px 200px;
+}
+.venue-content {
+    padding-left: 100px;
+    padding-top: 0;
+}
+.venue-content h3 {
+    margin-top: 0;
+}
+table {
+    padding: 40px 50px 40px 200px;
+}
+
+th {
+    padding: 20px;
+    
+}
+td {
+    border-bottom:0.5px solid #648880 ;
+    padding-right: 50px;
+}
+.except {
+    border-top: 0.5px solid #648880;
+}
+table h3 {
+    margin: 0;
+}
+th {
+    text-align: right;
+}
